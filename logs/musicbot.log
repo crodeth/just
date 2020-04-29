@@ -1,0 +1,78 @@
+[141.112327576] 2020-04-29 10:40:56,040 - INFO - launcher: Starting sanity checks
+[142.089128494] 2020-04-29 10:40:56,041 - INFO - launcher: Checking for Python 3.5+
+[143.087625504] 2020-04-29 10:40:56,042 - INFO - launcher: Checking console encoding
+[143.087625504] 2020-04-29 10:40:56,042 - INFO - launcher: Setting console encoding to UTF-8
+[143.087625504] 2020-04-29 10:40:56,042 - INFO - launcher: Ensuring we're in the right environment
+[144.087791443] 2020-04-29 10:40:56,043 - INFO - launcher: Adding local bins/ folder to path
+[1018.550395966] 2020-04-29 10:40:56,917 - INFO - launcher: Required checks passed.
+[1019.521951675] 2020-04-29 10:40:56,918 - INFO - launcher: Optional checks passed.
+[1019.521951675] 2020-04-29 10:40:56,918 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.1878530979156494] 2020-04-29 10:40:58,087 - WARNING - musicbot.config | In config.py::MainThread(8664), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.1878530979156494] 2020-04-29 10:40:58,087 - INFO - musicbot.config | In config.py::MainThread(8664), line 132 in run_checks: Using i18n: config/i18n/en.json
+[2.1918506622314453] 2020-04-29 10:40:58,091 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 225 in _setup_logging: Set logging level to INFO
+[2.1948490142822266] 2020-04-29 10:40:58,094 - DEBUG - musicbot.json | In json.py::MainThread(8664), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.2388217449188232] 2020-04-29 10:40:58,138 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 90 in __init__: Starting MusicBot version_unknown
+[2.2398207187652588] 2020-04-29 10:40:58,139 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[5.2599618434906006] 2020-04-29 10:41:01,159 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 951 in on_ready: Connection established, ready to go.
+[5.2599618434906006] 2020-04-29 10:41:01,159 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 342 in _cache_app_info: Caching app info
+[5.4771709442138672] 2020-04-29 10:41:01,376 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[5.4791703224182129] 2020-04-29 10:41:01,378 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 789 in _scheck_server_permissions: Checking server permissions
+[5.4791703224182129] 2020-04-29 10:41:01,378 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[5.4791703224182129] 2020-04-29 10:41:01,378 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 797 in _scheck_configs: Validating config
+[5.4791703224182129] 2020-04-29 10:41:01,378 - DEBUG - musicbot.config | In config.py::MainThread(8664), line 236 in async_validate: Validating options...
+[5.4801700115203857] 2020-04-29 10:41:01,379 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 800 in _scheck_configs: Validating permissions config
+[5.4801700115203857] 2020-04-29 10:41:01,379 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8664), line 94 in async_validate: Validating permissions...
+[5.4801700115203857] 2020-04-29 10:41:01,379 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 968 in on_ready: Connected: 704597638737297409/「어버버버 음악봇」™#9478
+[5.4891633987426758] 2020-04-29 10:41:01,388 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 976 in on_ready: Owner:     447923638595747871/「ShiNon」™#4042
+
+[5.4891633987426758] 2020-04-29 10:41:01,388 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 979 in on_ready: Guild List:
+[5.4901628494262695] 2020-04-29 10:41:01,389 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 983 in on_ready:  - 어버버버V5.3
+[5.4901628494262695] 2020-04-29 10:41:01,389 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1039 in on_ready: Not bound to any text channels
+[5.4901628494262695] 2020-04-29 10:41:01,389 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1052 in on_ready: Autojoining voice channels:
+[5.4911625385284424] 2020-04-29 10:41:01,390 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1053 in <listcomp>:  - 어버버버V5.3/💎어버버버-음악봇💎
+[5.4921624660491943] 2020-04-29 10:41:01,391 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 281 in _join_startup_channels: Attempting to join 어버버버V5.3/💎어버버버-음악봇💎
+[65.4874861240386963] 2020-04-29 10:42:01,386 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 309 in _join_startup_channels: Error joining 어버버버V5.3/💎어버버버-음악봇💎
+Traceback (most recent call last):
+  File "C:\Users\jooho\Desktop\music bot\MusicBot\musicbot\bot.py", line 294, in _join_startup_channels
+    player = await self.get_player(channel, create=True, deserialize=self.config.persistent_queue)
+  File "C:\Users\jooho\Desktop\music bot\MusicBot\musicbot\bot.py", line 421, in get_player
+    voice_client = await self.get_voice_client(channel)
+  File "C:\Users\jooho\Desktop\music bot\MusicBot\musicbot\bot.py", line 386, in get_voice_client
+    return await channel.connect(timeout=60, reconnect=True)
+  File "C:\Users\jooho\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\abc.py", line 1033, in connect
+    await voice.connect(reconnect=reconnect)
+  File "C:\Users\jooho\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\voice_client.py", line 217, in connect
+    await self.start_handshake()
+  File "C:\Users\jooho\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\voice_client.py", line 153, in start_handshake
+    await asyncio.wait_for(self._handshake_complete.wait(), timeout=self.timeout, loop=self.loop)
+  File "C:\Users\jooho\AppData\Local\Programs\Python\Python37\lib\asyncio\tasks.py", line 423, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+[65.4964764118194580] 2020-04-29 10:42:01,395 - ERROR - musicbot.bot | In bot.py::MainThread(8664), line 310 in _join_startup_channels: Failed to join 어버버버V5.3/💎어버버버-음악봇💎
+[3183.2458386421203613] 2020-04-29 11:33:59,145 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2706 in on_message: 447923638595747871/「ShiNon」™#4042: *summon
+[3183.9046709537506104] 2020-04-29 11:33:59,803 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 733 in deserialize_queue: Deserializing queue for 525607565674020864
+[3184.0625593662261963] 2020-04-29 11:33:59,961 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 425 in get_player: Created player via deserialization for guild 525607565674020864 with 0 entries
+[3184.0635590553283691] 2020-04-29 11:33:59,962 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1935 in cmd_summon: Joining 어버버버V5.3/💎어버버버-음악봇💎
+[3184.0655577182769775] 2020-04-29 11:33:59,964 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 532 in on_player_stop: Running on_player_stop
+[5184.7236661911010742] 2020-04-29 12:07:20,622 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 3004 in on_guild_available: Guild "어버버버V5.3" has become available.
+[5186.7089631557464600] 2020-04-29 12:07:22,608 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 951 in on_ready: Connection established, ready to go.
+[5186.7089631557464600] 2020-04-29 12:07:22,608 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 956 in on_ready: Received additional READY event, may have failed to resume
+[8762.8581705093383789] 2020-04-29 13:06:58,757 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2706 in on_message: 447923638595747871/「ShiNon」™#4042: *summon
+[8763.3358809947967529] 2020-04-29 13:06:59,235 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 733 in deserialize_queue: Deserializing queue for 525607565674020864
+[8763.3528699874877930] 2020-04-29 13:06:59,252 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 425 in get_player: Created player via deserialization for guild 525607565674020864 with 0 entries
+[8763.3528699874877930] 2020-04-29 13:06:59,252 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1935 in cmd_summon: Joining 어버버버V5.3/💎월미 바다열차💎
+[8763.3558690547943115] 2020-04-29 13:06:59,255 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 532 in on_player_stop: Running on_player_stop
+[13406.4384093284606934] 2020-04-29 14:24:22,337 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 3004 in on_guild_available: Guild "어버버버V5.3" has become available.
+[13408.4078724384307861] 2020-04-29 14:24:24,307 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 951 in on_ready: Connection established, ready to go.
+[13408.4078724384307861] 2020-04-29 14:24:24,307 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 956 in on_ready: Received additional READY event, may have failed to resume
+[17886.5241191387176514] 2020-04-29 15:39:02,423 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 3004 in on_guild_available: Guild "어버버버V5.3" has become available.
+[17888.5052180290222168] 2020-04-29 15:39:04,404 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 951 in on_ready: Connection established, ready to go.
+[17888.5052180290222168] 2020-04-29 15:39:04,404 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 956 in on_ready: Received additional READY event, may have failed to resume
+[25866.8933522701263428] 2020-04-29 17:52:02,792 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 2706 in on_message: 447923638595747871/「ShiNon」™#4042: *summon
+[25867.3662354946136475] 2020-04-29 17:52:03,265 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 733 in deserialize_queue: Deserializing queue for 525607565674020864
+[25867.3833823204040527] 2020-04-29 17:52:03,282 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 425 in get_player: Created player via deserialization for guild 525607565674020864 with 0 entries
+[25867.3843822479248047] 2020-04-29 17:52:03,283 - INFO - musicbot.bot | In bot.py::MainThread(8664), line 1935 in cmd_summon: Joining 어버버버V5.3/월미도
+[25867.3863873481750488] 2020-04-29 17:52:03,285 - DEBUG - musicbot.bot | In bot.py::MainThread(8664), line 532 in on_player_stop: Running on_player_stop
